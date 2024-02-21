@@ -15,6 +15,7 @@ public class Flight {
     private Date flightDate;
 
     private double duration;
+    private int currCapacity;
 
     public Flight() {
 
@@ -27,6 +28,15 @@ public class Flight {
         this.maxCapacity = maxCapacity;
         this.flightDate = flightDate;
         this.duration = duration;
+        this.currCapacity=0;
+    }
+
+    public int getCurrCapacity() {
+        return currCapacity;
+    }
+
+    public void setCurrCapacity(int currCapacity) {
+        this.currCapacity = currCapacity;
     }
 
     public int getFlightId() {

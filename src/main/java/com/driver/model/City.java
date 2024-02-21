@@ -8,5 +8,5 @@ public enum City {
     BANGLORE,
     JAIPUR,
     KOLKATA,
-    CHENNAI,
+    CHENNAI;
 }
